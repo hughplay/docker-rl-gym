@@ -5,12 +5,14 @@ scipy
 matplotlib 
 
 # Deep learning
-tensorflow 
-keras 
-h5py 
-keras-rl
-baselines
-tensorforce
+#tensorflow
+#keras
+#h5py
+#keras-rl
+#baselines
+#tensorforce
+torch
+torchvision
 
 # AI Gym requirements
 PyOpenGL
@@ -20,3 +22,6 @@ pyglet
 # Other
 JSAnimation
 ipywidgets
+
+# AI Gym
+gym[all]

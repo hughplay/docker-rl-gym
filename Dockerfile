@@ -1,4 +1,3 @@
-
 # Base
 FROM ubuntu:16.04
 
@@ -38,15 +37,11 @@ RUN apt-get update \
 RUN python3 -m pip install --upgrade pip
 
 # Install Python packages - Step 1
-COPY requirements_1.txt /tmp/
-RUN python3 -m pip install -r /tmp/requirements_1.txt
-
-# Install Python packages - Step 2 (OpenAI Gym)
-COPY requirements_2.txt /tmp/
-RUN python3 -m pip install -r /tmp/requirements_2.txt
+COPY requirements.txt /tmp/
+RUN python3 -m pip install -r /tmp/requirements.txt
 
 # Add directory
-RUN mkdir /ds 
+RUN mkdir /ds
 
 # Enable jupyter widgets
 RUN jupyter nbextension enable --py --sys-prefix widgetsnbextension
