@@ -1,16 +1,10 @@
 # Basic
-pandas 
-jupyter 
-scipy 
-matplotlib 
+pandas
+jupyter-lab
+scipy
+matplotlib
 
 # Deep learning
-#tensorflow
-#keras
-#h5py
-#keras-rl
-#baselines
-#tensorforce
 torch
 torchvision
 
