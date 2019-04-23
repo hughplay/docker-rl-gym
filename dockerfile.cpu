@@ -44,7 +44,8 @@ RUN python3 -m pip install -r /tmp/requirements.txt
 ENV DEBIAN_FRONTEND teletype
 
 # Jupyter notebook with virtual frame buffer for rendering
-CMD xvfb-run -s "-screen 0 1400x900x24" \
+CMD cd /root \
+    && xvfb-run -s "-screen 0 1400x900x24" \
     /usr/local/bin/jupyter lab \
     --port=8888 --ip=0.0.0.0 --allow-root
 
