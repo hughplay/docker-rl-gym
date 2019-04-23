@@ -3,6 +3,7 @@ pandas
 jupyterlab
 scipy
 matplotlib
+seaborn
 
 # Deep learning
 torch
