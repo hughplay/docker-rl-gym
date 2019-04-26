@@ -6,10 +6,6 @@ matplotlib
 seaborn
 tqdm
 
-# Deep learning
-torch
-torchvision
-
 # AI Gym requirements
 PyOpenGL
 piglet

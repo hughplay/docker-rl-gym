@@ -1,0 +1,7 @@
+# Deep learning
+torch
+torchvision
+tensorflow==1.12
+
+tensorboard
+tensorboardX
