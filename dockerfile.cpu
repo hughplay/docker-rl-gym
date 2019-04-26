@@ -38,8 +38,9 @@ RUN apt-get update \
 RUN python3 -m pip install --upgrade pip
 
 # Install Python packages - Step 1
-COPY requirements.txt /tmp/
+COPY requirements_framework.txt /tmp/
 RUN python3 -m pip install -r /tmp/requirements_framework.txt
+COPY requirements.txt /tmp/
 RUN python3 -m pip install -r /tmp/requirements.txt
 
 ENV DEBIAN_FRONTEND teletype
