@@ -5,6 +5,7 @@ scipy
 matplotlib
 seaborn
 tqdm
+ruamel.yaml
 
 # AI Gym requirements
 PyOpenGL
