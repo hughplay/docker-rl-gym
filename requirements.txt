@@ -4,6 +4,7 @@ jupyterlab
 scipy
 matplotlib
 seaborn
+tqdm
 
 # Deep learning
 torch
